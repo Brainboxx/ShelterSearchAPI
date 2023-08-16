@@ -16,8 +16,8 @@ urlpatterns = [
     path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     # Schema & Documentation
-    path('docs/', include_docs_urls(title='ShelterSearchAPI')),
-    path('schema', get_schema_view(
+    path('api/docs/', include_docs_urls(title='ShelterSearchAPI')),
+    path('/schema', get_schema_view(
         title="ShelterSearchAPI",
         description="API for the ShelterSearchAPI",
         version="1.0.0"
