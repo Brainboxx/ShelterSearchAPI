@@ -47,7 +47,7 @@ Welcome to this Django Real Estate API project! This API provides functionalitie
    ```
 # Usage
 - Access the admin panel at http://localhost:8000/admin/ to manage property listings, agents, and blog posts.
-- Explore and interact with the API endpoints for property listings, agents, and blog via the browsable API at http://localhost:8000/api/docs/.
+- Explore and interact with the API endpoints for property listings, agents, and blog via the docs at http://localhost:8000/api/docs/.
 
 # Contributing
 Contributions are welcome! If you find a bug or have suggestions, please open an issue or submit a pull request. Make sure to follow the project's coding standards.
